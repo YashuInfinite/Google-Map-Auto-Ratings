@@ -19,7 +19,7 @@ time.sleep(4)
 driver.get("https://www.google.com/maps/@12.9531904,77.6142848,12z?entry=ttu")
 time.sleep(4)
 search_box = driver.find_element(By.NAME, "q")
-search_box.send_keys("Sarvodaya PU College, Tumakuru-1, Horpet, Ward No. 18, Tumkur, Tumakuru, Karnataka") #replace with your search place
+search_box.send_keys("M. Chinnaswamy Stadium,Bangalore") #replace with your search place
 search_box.send_keys(Keys.RETURN)
 
 time.sleep(6)
